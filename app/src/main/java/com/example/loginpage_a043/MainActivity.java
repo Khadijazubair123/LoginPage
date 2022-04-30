@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         MaterialButton LoginBtn=(MaterialButton) findViewById(R.id.LoginBtn);
 
-        //admin and admin
+        // assuming password and username as admin and admin
 
         LoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
